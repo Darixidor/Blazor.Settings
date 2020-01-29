@@ -2,6 +2,12 @@
 
   <PropertyGroup>
     <TargetFramework>netstandard2.1</TargetFramework>
+    <Authors>Daniel Matthews</Authors>
+    <Copyright>Copyright 2020</Copyright>
+    <RepositoryUrl>https://github.com/Darixidor/Blazor.Settings</RepositoryUrl>
+    <RepositoryType>git</RepositoryType>
+    <PackageProjectUrl>https://github.com/Darixidor/Blazor.Settings</PackageProjectUrl>
+    <Description>This library allows Blazor Client Side code to look up and use the appsettings file on ther server. Registers a IAppSettings service that can be used to pull the client's appsettings using a REST api call.</Description>
   </PropertyGroup>
 
   <ItemGroup>
