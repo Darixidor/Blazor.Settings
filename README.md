@@ -1,7 +1,11 @@
 # Darixidor.Blaxor.Settings
-![Nuget](https://img.shields.io/nuget/v/Darixidor.Blazor.Settings?style=for-the-badge)
-![Nuget](https://img.shields.io/nuget/dt/Darixidor.Blazor.Settings?style=for-the-badge)
-I have been working with Blazor CLient side for a few weeks now and ran into an issue: trying to access my appsettings.json file
+[![Nuget](https://img.shields.io/nuget/v/Darixidor.Blazor.Settings?style=for-the-badge)](https://www.nuget.org/packages/Darixidor.Blazor.Settings)
+
+[![Nuget](https://img.shields.io/nuget/dt/Darixidor.Blazor.Settings?style=for-the-badge)](https://www.nuget.org/packages/Darixidor.Blazor.Settings)
+
+[![Maintenance](https://img.shields.io/badge/Maintained%3F-yes-green.svg?style=for-the-badge)](https://github.com/Darixidor/Blazor.Settings/graphs/commit-activity)
+
+I have been working with Blazor Client side for a few weeks now and ran into an issue: trying to access my appsettings.json file
 from my client side code doesn't work and for good reason: your app settigns files are on the server, your client code has no idea about them.
 I do NOT want to maintain 2 sets of appsettings files, so I created this library. 
 
